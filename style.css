@@ -1,1 +1,7 @@
-body{background: color #FFFF;}
+body{ background-color: rgb(85,85,137);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24p 0;
+}
