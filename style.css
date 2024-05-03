@@ -1,7 +1,22 @@
-body{ background-color: rgb(85,85,137);
-    color: white;
-    display: flex;
-    justify-content: space-around;
+.cabecalho{background-color: rgb(85, 85, 137);
+color: white;
+display:flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;}
+
+.cabecalho-imagem{width: 7%;}
+.cabecalho-lista-item{ display: inline-block;
+                       margin: 24px 24px;
+                       font-size: 24px}
+
+.escola{background-image: linear-gradient( #383d58, #00c0eb );
+    color:white;
+    display:flex;
+    justify-content: center;
     align-items: center;
-    padding: 24p 0;
-}
+    padding: 24px 0;}
+
+.escola-imagem{width: 25%;}
+
+.escola-titulo{padding: 30px 0;}
