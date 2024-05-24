@@ -1,22 +1,35 @@
-.cabecalho{background-color: rgb(85, 85, 137);
-    color: white;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;}
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSE É MEU SITEEEEEEEEEEEE
+    </title> <link rel="stylesheet" href="style.css">
+ </head>
+  <header class="cabecalho"> 
     
-    .cabecalho-imagem{width: 7%;}
-    .cabecalho-lista-item{ display: inline-block;
-                           margin: 24px 24px;
-                           font-size: 24px}
-    
-    .escola{background-image: linear-gradient( #383d58, #00c0eb );
-        color:white;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        padding: 24px 0;}
-    
-    .escola-imagem{width: 25%;}
-    
-    .escola-titulo{padding: 30px 0;}
+   <img class="cabeçalho-imagem" src="alura-start.png" alt="alura-start.png">
+   <ul class="cabecalho-lista-item"> 
+    <li class="cabecalho-lista-item">Estudante</li> 
+    <li class="cabecalho-lista-item">Escola</li> 
+   </ul> 
+
+  </header> 
+
+  <section class="escola"> 
+   <div class="escola-conteudo"> 
+    <h2 class="escola-titulo">Sobre a Escola</h2> 
+    <p class="escola-texto-um"> O Colégio Estadual Cívico MIlitar Senador Manoel Alencar Guimaraẽs está localizado no bairro Mercês, nesta Capital.
+
+    </p> 
+    <p class="escola-texto-dois"> O Colégio oferece Ensino Fundamental, Médio, e Técnico em Administração. 
+    </p> 
+   </div> 
+   <img class="escola-imagem" src="professoraluno.jpg" alt="profxaluno">
+  </section> 
+ 
+<section class="estudante">
+ <h3 class="estudante-conteúdo"> Quem são nossos alunos</h3>
+ <img class="estudante-imagem" src="aline.jpg" alt="estudante1>
+ <h4 class="estudante-titulo">
+</section>
