@@ -1,35 +1,52 @@
-<!DOCTYPE html>
-<html lang="en"> 
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESSE É MEU SITEEEEEEEEEEEE
-    </title> <link rel="stylesheet" href="style.css">
- </head>
-  <header class="cabecalho"> 
-    
-   <img class="cabeçalho-imagem" src="alura-start.png" alt="alura-start.png">
-   <ul class="cabecalho-lista-item"> 
-    <li class="cabecalho-lista-item">Estudante</li> 
-    <li class="cabecalho-lista-item">Escola</li> 
-   </ul> 
+*{margin: 0; padding: 0;}
+   
+   
+   .cabeçalho{background-color: rgb(85,85,137);
+       color: white;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 10px 0;}
+   
+   .cabeçalho-imagem{width: 7%;}
+   .cabeçalho-lista-item{display: inline-block;
+                          margin: 30px 100px;
+                          font-size: 24px;}
+   
+   .escola-imagem{width: 25%;}
+   .escola{background-image: linear-gradient(#383D58, #00c0eb);
+           color: white;
+           display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 80px 0;}
 
-  </header> 
+   .escola-titulo{padding: 24, 0}
+   
+   
+   .escola-texto{padding:30px 3%;}
+   
+   .estudante-imagem{width: 20%;}
+   
+   .estudante-icone{width: 3%;}
+   
+   .estudante{background-image: linear-gradient(#6f6f6f, #87125a);
+              color:white;}
+   
+   .estudante-todos{display: grid;
+                    grid-template-columns: 25% }
+               
 
-  <section class="escola"> 
-   <div class="escola-conteudo"> 
-    <h2 class="escola-titulo">Sobre a Escola</h2> 
-    <p class="escola-texto-um"> O Colégio Estadual Cívico MIlitar Senador Manoel Alencar Guimaraẽs está localizado no bairro Mercês, nesta Capital.
+   .estudante-div{text-align: center;}
 
-    </p> 
-    <p class="escola-texto-dois"> O Colégio oferece Ensino Fundamental, Médio, e Técnico em Administração. 
-    </p> 
-   </div> 
-   <img class="escola-imagem" src="professoraluno.jpg" alt="profxaluno">
-  </section> 
- 
-<section class="estudante">
- <h3 class="estudante-conteúdo"> Quem são nossos alunos</h3>
- <img class="estudante-imagem" src="aline.jpg" alt="estudante1>
- <h4 class="estudante-titulo">
-</section>
+   .estudante-titulo{text-align: center;
+               font-size: 30px;
+               padding: 24px 0;}
+
+
+.rodape{background-color: black;
+        text-align: center;}
+
+        .rodape-imagem{width: 5%;
+                      height: 20px;
+                      padding: 12px 0;}
